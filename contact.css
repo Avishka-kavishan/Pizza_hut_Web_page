@@ -1,0 +1,151 @@
+body{
+  
+  background: url(image/cantc2.jpg);
+}
+nav,
+.nav-links {
+  display: flex;
+}
+
+nav {
+  justify-content: space-around;
+  align-items: center;
+  height: 17vh;
+  position: relative;
+  z-index: 100;
+}
+
+.nav-links {
+  gap: 2rem;
+  list-style: none;
+  font-size: 1.5rem;
+  text-decoration: double;
+  
+}
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-decoration-color: white;
+  }
+  
+  a:hover {
+    color: grey;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: rgb(181, 181, 181);
+  }
+  
+  .logo {
+    font-size: 2rem;
+    font-family: "Mate-regular",serif;
+    color: white;
+    
+  }
+  
+  .logo:hover {
+    cursor: default;
+  }
+  #socials-container{
+      width: 50px;
+      height: 50px;
+  }
+  nav .logo img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    
+  }
+.container{
+  position: relative;
+  min-height: 100vh;
+  padding: 50px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  margin-top: -200px;
+}
+.container h1{
+  color: white;
+  font-size: 50px;
+}
+.container .contactinfo{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.container .contactinfo .box{
+  position: relative;
+  padding: 20px 0;
+  display: flex;
+}
+.container .contactinfo .box .icon{
+  min-width: 60px;
+  height: 60px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 22px;
+}
+.container .contactinfo .box .text{
+  display: flex;
+  margin-left: 20px;
+  font-size: 16px;
+  color: #fff;
+  flex-direction: column;
+  font-weight: 300px;
+  margin-top: -5px;
+}
+.contactinfo{
+  margin-left:-300px;
+  
+}
+.contactinform{
+  margin-top: -350px;
+  margin-left: 600px;
+  backdrop-filter: blur(10px);
+}
+.contactinform span{
+  margin-left: 0px;
+  font-size: 20px;
+}
+.container .contactinfo .box .text p,a{
+  margin-top: -15px;
+}
+.contactinform{
+  width: 30%;
+  padding: 40px;
+}
+.contactinform .input input[type='text']{
+  width: 400px;
+  border-radius: 20px;
+  height: 30px;
+
+}
+.contactinform .input textarea{
+  width: 400px;
+  border-radius: 20px;
+  height: 50px;
+}
+.contactinform .input input[type='submit']{
+  margin-top: 30px;
+  width: 80px;
+  height: 40px;
+  border-radius: 20px;
+  margin-left: 40%;
+  background-color: rgb(91, 13, 13);
+  color: #fff;
+  
+}
+.contactinform .input input[type='submit']:hover.stars{
+  filter: drop-shadow(0 0 10px rgb(229, 215, 215));
+  display: block;
+}
+.contactinform h2{
+  color: rgb(95, 13, 13);
+  font-size: 30px;
+  text-align: center;
+}
